@@ -1,0 +1,31 @@
+.hero {
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 90px;
+  }
+
+  &__heading {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 84px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+  }
+
+  &__desc {
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.09em;
+  }
+
+  &__image{
+      padding-right: 141px;
+  }
+}

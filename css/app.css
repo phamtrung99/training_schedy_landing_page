@@ -3,7 +3,7 @@
   line-height: 1;
   font-family: "Rubik", sans-serif;
   color: #FFFFFF;
-  background-color: #406553;
+  background-color: #336652;
 }
 
 .wrapper {
@@ -41,6 +41,33 @@
   color: inherit;
   text-decoration: none;
   font-weight: 500;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 90px;
+}
+.hero__heading {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 71px;
+  line-height: 84px;
+  padding-right: 100px;
+  margin-bottom: 30px;
+}
+.hero__desc {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.09em;
+}
+.hero__image {
+  padding-right: 141px;
 }
 
 /*# sourceMappingURL=app.css.map */
