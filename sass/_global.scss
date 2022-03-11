@@ -1,17 +1,30 @@
+@import "responsive";
+
 .body {
   font-size: $font-size;
   line-height: 1;
   font-family: $font;
   color: $color-text;
   background-color: $color-background;
+  @include moblie {
+    font-size: $mobile-font-size;
+  }
 }
 
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
+  @include moblie {
+    max-width: 413px;
+    margin: 0 auto;
+  }
 }
 
 .container {
   margin: 0 42px 0px 100px;
   padding: 44px 0px;
+  @include moblie {
+    margin-left: 30px;
+    padding: 30px 0px;
+  }
 }

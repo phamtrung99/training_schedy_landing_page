@@ -1,0 +1,3 @@
+@mixin moblie { @media (max-width: #{$moblie-width - 1px}){
+    @content;
+}}
